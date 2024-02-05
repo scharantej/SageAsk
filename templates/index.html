@@ -1,0 +1,78 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>GenAI Learning Assistant</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+<div class="container">
+<h1>GenAI Learning Assistant</h1>
+<form action="/query" method="POST">
+<input type="text" name="query" placeholder="Ask a question">
+<button type="submit">Ask</button>
+</form>
+<div id="output"></div>
+</div>
+
+</body>
+
+</html>
+
+
+
+### style.css
+
+css
+body {
+font-family: Arial, sans-serif;
+}
+
+.container {
+max-width: 600px;
+margin: 0 auto;
+padding: 20px;
+}
+
+h1 {
+font-size: 24px;
+margin-bottom: 20px;
+}
+
+form {
+display: flex;
+align-items: center;
+}
+
+input[type="text"] {
+width: 100%;
+padding: 10px;
+border: 1px solid #ccc;
+border-radius: 4px;
+}
+
+button[type="submit"] {
+margin-left: 10px;
+padding: 10px 20px;
+border: 1px solid #ccc;
+border-radius: 4px;
+background-color: #008CBA;
+color: #fff;
+cursor: pointer;
+}
+
+#output {
+margin-top: 20px;
+padding: 10px;
+border: 1px solid #ccc;
+border-radius: 4px;
+background-color: #eee;
+}
+
+
+
